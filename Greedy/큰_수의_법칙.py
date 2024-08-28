@@ -11,6 +11,3 @@ count = m // (k+1) * k + m % (k+1)
 sum = first * count + second * (m - count)
 
 print(sum)
-
-            
-            
