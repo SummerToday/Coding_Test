@@ -6,11 +6,12 @@ first = data[n - 1]
 second = data[n - 2]
 
 result = 0
+
 x = 1
 
-for i in range(m): 
+for i in range(m):
     if x % k != 0:
-        result += first     
+        result += first
     else:
         result += second
     x += 1
